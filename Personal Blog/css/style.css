@@ -75,9 +75,28 @@ a:hover{
 td:nth-child(2){
     padding-left: 30px;
 }
-/*img{ 
-    width: 100%;
-} */
+
+.profile-img{
+        background: url(../images/profile.jpg) no-repeat center center fixed;
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.about-me-text{
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+.footer{
+    background-color: #1b252f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
@@ -121,6 +140,10 @@ td:nth-child(2){
     }
     article > header{
         justify-content: space-around;
+    }
+
+    .footer{
+        flex-direction: row;
     }
 
 }
