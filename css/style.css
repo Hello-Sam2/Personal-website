@@ -97,6 +97,27 @@ td:nth-child(2){
     flex-direction: column;
     padding: 15px;
 }
+
+section {
+    font-size: 1.5em;
+}
+
+.more{
+    text-align: center;
+}
+
+.more-title{
+    padding-bottom:25px;
+}
+
+.more-ul{
+    padding-left:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    font-size: 1.75em;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
