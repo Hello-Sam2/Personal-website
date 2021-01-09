@@ -113,11 +113,19 @@ section {
 .more-ul{
     padding-left:10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding-right: 10px;
     font-size: 1.75em;
 }
+
+.more-p{
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
@@ -164,6 +172,9 @@ section {
     }
 
     .footer{
+        flex-direction: row;
+    }
+    .more-ul{
         flex-direction: row;
     }
 
