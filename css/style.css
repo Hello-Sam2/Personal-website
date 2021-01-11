@@ -119,9 +119,13 @@ section {
     font-size: 1.75em;
 }
 
+article h2{
+    font-size: 2em;
+}
 .more-p{
     margin-left: 25px;
     margin-right: 25px;
+    font-size: 1.25em;
     
 }
 
