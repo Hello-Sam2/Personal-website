@@ -125,6 +125,20 @@ section {
     
 }
 
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background: #d8d8d8;
+}
+nav ul li:hover ul{
+    display: block;
+}
+
+
 
 @media (min-width: 1000px) {
     body{
