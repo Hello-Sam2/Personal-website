@@ -142,6 +142,17 @@ nav ul li:hover ul{
     display: block;
 }
 
+.table-contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-contents{
+    display:none;
+}
+.content-contents:hover{
+    display: block;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
@@ -191,6 +202,10 @@ nav ul li:hover ul{
         flex-direction: row;
     }
     .more-ul{
+        flex-direction: row;
+    }
+
+    .table-contents{
         flex-direction: row;
     }
 
