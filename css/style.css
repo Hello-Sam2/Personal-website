@@ -150,7 +150,7 @@ nav ul li:hover ul{
 .content-contents{
     display:none;
 }
-.content-contents:hover{
+.content-contents h2:hover{
     display: block;
 }
 @media (min-width: 1000px) {
