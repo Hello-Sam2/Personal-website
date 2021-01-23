@@ -153,6 +153,7 @@ nav ul li:hover ul{
 .content-contents h2:hover{
     display: block;
 }
+
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
