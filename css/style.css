@@ -165,13 +165,13 @@ nav ul li:hover ul{
     margin-top: 15%;
     margin-bottom: 15%;
 }
-.more-d{
+.the-big{
     margin: 0 auto;
     padding: 0 16px;
     max-width: 1000px;
 }
 
-.more-d p{
+.the-big p{
     font-size: 1.55em;
     font-weight: 10;
 }
