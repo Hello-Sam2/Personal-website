@@ -154,6 +154,31 @@ nav ul li:hover ul{
     display: block;
 }
 
+.img-d{
+    background: url(../images/darwin.jpg) no-repeat center center fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.more-d{
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1000px;
+}
+
+.more-d p{
+    font-size: 1.55em;
+    font-weight: 10;
+}
+
+blockquote div{
+    padding: 10px 0;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
