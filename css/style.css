@@ -86,8 +86,10 @@ td:nth-child(2){
 }
 
 .about-me-text{
-    font-size: 2em;
-    margin-left: 15px;
+    font-size: 1.55em;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1000px;
 }
 
 .footer{
@@ -179,6 +181,17 @@ nav ul li:hover ul{
 blockquote div{
     padding: 10px 0;
 }
+.r-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.r-text{
+    margin: 0 15px 15px;
+}
+.final-pic{
+    margin-top: 15px;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
@@ -234,5 +247,9 @@ blockquote div{
     .table-contents{
         flex-direction: row;
     }
+    .r-images{
+        flex-direction: row;
+    }
+   
 
 }
