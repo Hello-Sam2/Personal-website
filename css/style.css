@@ -192,6 +192,26 @@ blockquote div{
 .final-pic{
     margin-top: 15px;
 }
+.times-t{
+    text-align: center;
+}
+.nytimes-i{
+    background: url(../images/nytimes.jpg) no-repeat center center ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.nytimes-q{
+    font-size: 1.4em;
+}
+.nytimes-q-1{
+    font-size: 1.6em;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
