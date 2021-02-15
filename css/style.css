@@ -212,6 +212,10 @@ blockquote div{
 .nytimes-q-1{
     font-size: 1.6em;
 }
+.e-news-emoji{
+    display: none;
+    font-size: 25em;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
