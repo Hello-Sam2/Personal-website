@@ -216,6 +216,7 @@ blockquote div{
     display: none;
     font-size: 25em;
 }
+
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
