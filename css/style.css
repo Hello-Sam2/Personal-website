@@ -216,7 +216,9 @@ blockquote div{
     display: none;
     font-size: 25em;
 }
-
+.book-top{
+    width: calc(100% + 2rem);
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
