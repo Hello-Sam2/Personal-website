@@ -216,8 +216,22 @@ blockquote div{
     display: none;
     font-size: 25em;
 }
-.book-top{
-    width: calc(100% + 2rem);
+.book-top img{
+    margin: 25px auto ;
+    display: block;
+}
+.book-top h1{
+    text-align: center;
+    color: black;
+
+}
+.book-top hr{
+    color: green;
+    margin: 0 25%;
+
+}
+.book-main{
+    margin: 0 20%;
 }
 @media (min-width: 1000px) {
     body{
