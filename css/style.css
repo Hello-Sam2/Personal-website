@@ -217,6 +217,7 @@ blockquote div{
     font-size: 25em;
 }
 .book-top img{
+    padding-top: 25px;
     margin: 25px auto ;
     display: block;
 }
@@ -229,6 +230,11 @@ blockquote div{
     color: green;
     margin: 0 25%;
 
+}
+.book-top p{
+    font-size: 2em;
+    margin: 0 25%;
+    padding: 25px 0;
 }
 .book-main{
     margin: 0 20%;
