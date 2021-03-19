@@ -254,6 +254,14 @@ footer h1{
 .book-main ol{
     font-size: 1.8em;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+footer h1 a{
+    text-align: center;
+}
 @media (min-width: 1000px) {
     body{
         max-width: 1600px;
@@ -310,6 +318,9 @@ footer h1{
         flex-direction: row;
     }
     .r-images{
+        flex-direction: row;
+    }
+    footer{
         flex-direction: row;
     }
    
