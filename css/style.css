@@ -180,6 +180,9 @@ nav ul li:hover ul{
 
 blockquote div{
     padding: 10px 0;
+} 
+blockquote{
+    font-size: 1.35em;
 }
 .r-images{
     display: flex;
@@ -216,6 +219,10 @@ blockquote div{
     display: none;
     font-size: 25em;
 }
+.book-top{
+    padding-left: 15%;
+    padding-right: 15%;
+}
 .book-top img{
     padding-top: 25px;
     margin: 25px auto ;
@@ -238,8 +245,14 @@ blockquote div{
 .book-main{
     margin: 0 20%;
 }
+.book-main p{
+    font-size: 1.8em;
+}
 footer h1{
     font-size: 1em;
+}
+.book-main ol{
+    font-size: 1.8em;
 }
 @media (min-width: 1000px) {
     body{
